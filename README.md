@@ -1,1 +1,2 @@
-# bulma-intro
+# Slide: Hero
+
