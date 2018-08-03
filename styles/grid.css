@@ -10,14 +10,19 @@
       "a a a a"
       "b c d e";
 
-  grid-row-gap: 1rem;    
+  grid-row-gap: 1rem;
 }
 
 @media (max-width: 512px) {
+  :root {
+		font-size: 60%;
+	}
+
   #grid {
     grid-template-areas:
         "a a a"
         "b c d"
         "e e e"
   }
+
 }
